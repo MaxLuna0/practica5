@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Datos generales</legend>
+        <from metod="get">
+        <table border="0" width="100">
+            <tr>
+                <td>Dame tu nombre:</td>
+                <td><input type="text" name="nombre"></td>
+            </tr>
+            <tr>
+                <td>Dame un correo electrónico:</td>
+                <td><input type="email" name="correo"></td>
+            </tr>
+            <tr>
+                <td>Dame tu contraseña:</td>
+                <td><input type="password" name="contra"></td>
+            </tr>
+            <tr>
+                <td>Ingresa tus comentarios:</td>
+                <td><textarea cols ="25" rows = "6" name="comentarios"></textarea></td>
+            </tr>
+            <tr>
+                <td>Dame un genero:</td><br>
+            </tr>
+            <tr>
+                <td><label>Masculino</label></td>
+                <td><input type="radio" name="genero" value="Mas"></td>
+            </tr>
+            <tr>
+                <td><label>Femenino</label></td>
+                <td><input type="radio" name="genero" value="Fem"></td>
+            </tr>
+            <td><select name="estadocivil">
+                <option disabled value=" ">seleccione uno</option> 
+            <option value="casado">casado</option>
+            <option value="soltero">soltero</option>
+            <option value="viudo">viudo</option>
+            <option value="vueltalsanto">vuelta al santo</option>
+            <option value="separadodivorciado">separado divorciado</option>
+            <option value="comprometido">comprometido</option>
+            </select>
+            </td>
+                
+            <tr>
+                <td>
+                    <input type="submit" value="Enviar">
+                </td>
+
+            </tr>
+
+        </table>
+    </fielset>
+    </from>
+    </form>
+</body>
+</html>
